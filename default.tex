@@ -135,7 +135,7 @@ $endif$
 $if(mainfont)$
   \setmainfont[$for(mainfontoptions)$$mainfontoptions$$sep$,$endfor$]{$mainfont$}
 $else$
-  \setmainfont[$for(mainfontoptions)$$mainfontoptions$$sep$,$endfor$]{$mainfont$}
+  \setmainfont{Times New Roman}
   \newfontfamily\cyrillicfont{Times New Roman}[Script=Cyrillic]
 $endif$
 $if(sansfont)$
